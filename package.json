@@ -11,5 +11,8 @@
     "url": "https://git.generalassemb.ly/smlcrp/MEN_Deliverable.git"
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.2"
+  }
 }
