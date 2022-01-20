@@ -11,7 +11,7 @@ app.get("/", function(req, res) {
 })
 
 app.get("/new", function(req, res) {
-    res.send("This new page is working!")
+    res.render("new.ejs")
 })
         
 app.get("/*", (req, res) => {
