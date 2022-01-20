@@ -7,7 +7,11 @@ const PORT = 3000;
 
 
 app.get("/", function(req, res) {
-    res.send("This is working! :)")
+    res.send("This is working!")
+})
+
+app.get("/new", function(req, res) {
+    res.send("This new page is working!")
 })
         
 app.get("/*", (req, res) => {
